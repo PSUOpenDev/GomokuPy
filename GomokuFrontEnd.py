@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 from tkinter import *
 import numpy as np
@@ -355,3 +356,12 @@ def on_mouse_click(event):
 # RUN PROGRAM
 #main_gomoku = GomokuFrontend()
 # main_gomoku.show_game()
+=======
+from GomokuPlayer import GomokuPlayer
+
+
+class GomokuFrontEnd:
+
+    def update_state(currentState: GomokuPlayer):
+        pass
+>>>>>>> 26b643e7302cc15a14e689acee29a860d12dcfb9

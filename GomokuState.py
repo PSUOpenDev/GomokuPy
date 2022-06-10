@@ -69,7 +69,7 @@ class GomokuState:
     LOSE_REWARD: float = -100.0
     DRAW_REWARD: float = 0.0
 
-    DISTANCE_FROM_CHECKED_POS: int = 1
+    DISTANCE_FROM_CHECKED_POS: int = 2
 
     MAX_POSSIBLE_POINTS = 300
 
@@ -286,10 +286,7 @@ class GomokuState:
             for direction in range(1, 5):
                 check,list = self.__is_pattern_match(player_id, (pattern, pattern_pos), direction, coordinator)
                 if check:
-                    if point >= 1000:
-                        print('Pat ={0}, dir ={4}, pos = {1} , pl={2}, gd = {3} , list = {5}'.format(pattern,coordinator,player_id,point,direction,list))
-                    if result < point:
-                        result = point
+                    result += point
 
         return result
 

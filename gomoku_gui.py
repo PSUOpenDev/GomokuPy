@@ -17,7 +17,7 @@ BOARD_GAP_X = (BOARD_WIDTH - 2 * MARGIN_X) / MAX_GRID_SIZE
 BOARD_GAP_Y = (BOARD_HEIGHT - 2 * MARGIN_Y) / MAX_GRID_SIZE
 
 # PLAYER RADIUS
-RADIUS = (BOARD_GAP_X * 0.9) / 2
+RADIUS = BOARD_GAP_X * 0.45
 
 # INITIALIZE
 POSITION = [None, None]
@@ -190,6 +190,7 @@ class GOMOKUGUI:
 
 def quit_game():
     GOMOKU_GUI.destroy()
+    exit()
 
 
 quit_game_btn = Button(

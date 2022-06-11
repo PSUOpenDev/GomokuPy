@@ -11,6 +11,7 @@ NEGATIVE_INFINITIVE = -1000000.0
 
 class AlphaBetaProneAIPlayer(GomokuPlayer, GomokuAI):
     def __init__(self):
+        GomokuState.DISTANCE_FROM_CHECKED_POS = 2
         super().__init__()
 
     def deliver_action(self) -> GomokuAction:

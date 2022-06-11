@@ -40,7 +40,7 @@ if __name__ == '__main__':
     
     algo2 = 0 
     while not (algo2 == 1 or algo2 == 2 or algo2 ==3 or algo2 ==4):
-        print("Choose player 1")
+        print("Choose player 2")
         print(" 1) Minimax")
         print(" 2) Alpha Beta")
         print(" 3) Q-Learning")
@@ -79,5 +79,5 @@ if __name__ == '__main__':
 
     for _ in range(0,number_of_game):
         game.play(True)
-        input('Press any key to continue...')
+        #input('Press any key to continue...')
     

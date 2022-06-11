@@ -34,7 +34,7 @@ class GomokuState:
         ('_XX#X', '_XX#X'.find('#'), 1000),
         ('_XXX#', '_XXX#'.find('#'), 1000),
 
-        ('#_XXX', '_#_XXX'.find('#'), 1000),
+        ('#_XXX', '#_XXX'.find('#'), 1000),
         ('X_#XX', 'X_#XX'.find('#'), 1000),
         ('X_X#X', 'X_X#X'.find('#'), 1000),
         ('X_XX#', 'X_XX#'.find('#'), 1000),

@@ -1,10 +1,13 @@
+'''
+CS 441 AI Spring 2022
+Group: Tri Le , Phuoc Nguyen
+Final Project : Gomoku Game
+'''
 from __future__ import annotations
 from __future__ import print_function
 
 import copy
 import sys
-
-from sympy import Point
 from GomokuAI import GomokuAI
 from GomokuAction import GomokuAction
 

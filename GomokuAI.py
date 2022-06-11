@@ -1,3 +1,8 @@
+'''
+CS 441 AI Spring 2022
+Group: Tri Le , Phuoc Nguyen
+Final Project : Gomoku Game
+'''
 class GomokuAI:
     WIN_REWARD = 1.0
     LOSE_REWARD = 0.0

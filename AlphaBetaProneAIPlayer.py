@@ -1,4 +1,8 @@
-from argparse import Action
+'''
+CS 441 AI Spring 2022
+Group: Tri Le , Phuoc Nguyen
+Final Project : Gomoku Game
+'''
 from GomokuAI import GomokuAI
 from GomokuPlayer import GomokuPlayer
 from GomokuAction import GomokuAction

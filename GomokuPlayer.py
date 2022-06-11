@@ -1,3 +1,8 @@
+'''
+CS 441 AI Spring 2022
+Group: Tri Le , Phuoc Nguyen
+Final Project : Gomoku Game
+'''
 from GomokuState import GomokuState
 from GomokuAction import GomokuAction
 

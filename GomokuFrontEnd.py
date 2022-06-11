@@ -1,4 +1,8 @@
-# Dependencies
+'''
+CS 441 AI Spring 2022
+Group: Tri Le , Phuoc Nguyen
+Final Project : Gomoku Game
+'''
 from tkinter import *
 import numpy as np
 import copy
